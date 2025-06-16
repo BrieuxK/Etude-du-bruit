@@ -3,10 +3,11 @@ Etude du bruit au sein du système de détection de l’observatoire à neutrino
 
 La première étape (File processing) consiste en l'extraction et la mise en forme des données utiles à ce travail.
 
-Par la suite, nous appliquons des méthodes de réduction de dimensionalité (PCA et t-SNE) afin d'obtenir une meilleure visualisation des l'analyse (Plus de 6000 dimensions réduites à 2.
+Par la suite, nous appliquons des méthodes de réduction de dimensionalité (ACP et t-SNE) afin d'obtenir une meilleure visualisation des l'analyse (Plus de 6000 dimensions réduites à 2.
 Nous cherchons la coupure optimale, c-à-d celle qui minimisera le bruit tout en maximisant le nombre de données réelles.
 
 
+Via la méthode ACP :
 <!-- Row 1: *_1 images -->
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f89ab723-393b-4ef9-ac7f-30d0d93af54c" width="30%"/>
@@ -14,6 +15,10 @@ Nous cherchons la coupure optimale, c-à-d celle qui minimisera le bruit tout en
   <img src="https://github.com/user-attachments/assets/8fb9d35c-6242-4efd-b805-d11271c7d76c" width="30%"/>
 </p>
 
+
+
+
+Via la méthode t-SNE :
 <!-- Row 2: *_tsne images -->
 <p align="center">
   <img src="https://github.com/user-attachments/assets/47db54ca-41ae-422f-99be-4e17d5be3f7b" width="30%"/>
